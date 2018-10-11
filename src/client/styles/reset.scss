@@ -1,0 +1,16 @@
+// override scss from browser, libraries
+* {
+    &:active,
+    :focus {
+        outline: none !important;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+}
+
+a:hover {
+    color: $link-color;
+}
