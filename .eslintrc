@@ -1,0 +1,35 @@
+{
+    "extends": [
+        "airbnb"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true,
+        "node": true
+    },
+    "rules": {
+        "no-confusing-arrow": 0,
+        "no-param-reassign": [
+            "error",
+            {
+                "props": true,
+                "ignorePropertyModificationsFor": [
+                    "axiosOptions"
+                ]
+            }
+        ],
+        "import/prefer-default-export": 0,
+        "no-console": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ]
+    }
+}
